@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PickleballCourtsWatchKit" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Courts" textAlignment="center" baselineAdjustment="alignCenters" id="C4t-QU-rfM">
+                            <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <separator alignment="left" id="nRR-w8-qa6"/>
+                        <slider width="1" alignment="left" maximum="30" steps="30" id="DS4-se-wbT">
+                            <connections>
+                                <action selector="valueDidChange:" destination="AgC-eL-Hgc" id="T7E-Cz-IeK"/>
+                            </connections>
+                        </slider>
+                        <separator alignment="left" id="c8v-gB-Tlo"/>
+                        <group width="1" alignment="left" id="r8g-tR-Tuy">
+                            <items>
+                                <label width="47" alignment="left" text="0" textAlignment="center" id="7fE-UZ-nVt"/>
+                                <separator alignment="left" id="bZv-jh-4qd"/>
+                                <button width="81" height="18.5" alignment="right" title="Assign" id="hco-iK-9O1">
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="setTeams" destination="AgC-eL-Hgc" id="Cba-Rx-639"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="nWT-uH-hex"/>
+                        <label alignment="center" text="players" textAlignment="center" numberOfLines="0" id="Wcn-2y-tDh"/>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="counter" destination="7fE-UZ-nVt" id="7e2-rl-j6G"/>
+                        <outlet property="courtsButton" destination="hco-iK-9O1" id="08t-qi-6Xn"/>
+                        <outlet property="playersText" destination="Wcn-2y-tDh" id="VW1-Ju-Sen"/>
+                        <outlet property="slider" destination="DS4-se-wbT" id="B23-Nb-2Bd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="305" y="170"/>
+        </scene>
+    </scenes>
+</document>

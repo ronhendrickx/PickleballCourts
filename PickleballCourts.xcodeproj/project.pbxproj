@@ -12,7 +12,56 @@
 		E4F1E0FE1C7E3E0400EE2585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F1E0FC1C7E3E0400EE2585 /* Main.storyboard */; };
 		E4F1E1001C7E3E0400EE2585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F1E0FF1C7E3E0400EE2585 /* Assets.xcassets */; };
 		E4F1E1031C7E3E0400EE2585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F1E1011C7E3E0400EE2585 /* LaunchScreen.storyboard */; };
+		E4F1E1121C7F48B100EE2585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F1E1111C7F48B100EE2585 /* Assets.xcassets */; };
+		E4F1E1191C7F48B100EE2585 /* PickleballCourtsWatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E4F1E1181C7F48B100EE2585 /* PickleballCourtsWatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4F1E11E1C7F48B100EE2585 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E11D1C7F48B100EE2585 /* InterfaceController.swift */; };
+		E4F1E1201C7F48B100EE2585 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1E11F1C7F48B100EE2585 /* ExtensionDelegate.swift */; };
+		E4F1E1221C7F48B100EE2585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F1E1211C7F48B100EE2585 /* Assets.xcassets */; };
+		E4F1E1261C7F48B100EE2585 /* PickleballCourtsWatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E4F1E10C1C7F48B100EE2585 /* PickleballCourtsWatchKit.app */; };
+		E4F1E1311C7F4E9800EE2585 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F1E12F1C7F4E9700EE2585 /* Interface.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4F1E11A1C7F48B100EE2585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F1E0ED1C7E3E0400EE2585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F1E1171C7F48B100EE2585;
+			remoteInfo = "PickleballCourtsWatchKit Extension";
+		};
+		E4F1E1241C7F48B100EE2585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F1E0ED1C7E3E0400EE2585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F1E10B1C7F48B100EE2585;
+			remoteInfo = PickleballCourtsWatchKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4F1E12A1C7F48B100EE2585 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E4F1E1191C7F48B100EE2585 /* PickleballCourtsWatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F1E12E1C7F48B100EE2585 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E4F1E1261C7F48B100EE2585 /* PickleballCourtsWatchKit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E4F1E0F51C7E3E0400EE2585 /* PickleballCourts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickleballCourts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +71,26 @@
 		E4F1E0FF1C7E3E0400EE2585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F1E1021C7E3E0400EE2585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4F1E1041C7E3E0400EE2585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F1E10C1C7F48B100EE2585 /* PickleballCourtsWatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickleballCourtsWatchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F1E1111C7F48B100EE2585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F1E1131C7F48B100EE2585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F1E1181C7F48B100EE2585 /* PickleballCourtsWatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PickleballCourtsWatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F1E11D1C7F48B100EE2585 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E4F1E11F1C7F48B100EE2585 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E4F1E1211C7F48B100EE2585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F1E1231C7F48B100EE2585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F1E1301C7F4E9700EE2585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E4F1E0F21C7E3E0400EE2585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F1E1151C7F48B100EE2585 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				E4F1E0F71C7E3E0400EE2585 /* PickleballCourts */,
+				E4F1E10D1C7F48B100EE2585 /* PickleballCourtsWatchKit */,
+				E4F1E11C1C7F48B100EE2585 /* PickleballCourtsWatchKit Extension */,
 				E4F1E0F61C7E3E0400EE2585 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				E4F1E0F51C7E3E0400EE2585 /* PickleballCourts.app */,
+				E4F1E10C1C7F48B100EE2585 /* PickleballCourtsWatchKit.app */,
+				E4F1E1181C7F48B100EE2585 /* PickleballCourtsWatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +133,27 @@
 			path = PickleballCourts;
 			sourceTree = "<group>";
 		};
+		E4F1E10D1C7F48B100EE2585 /* PickleballCourtsWatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				E4F1E12F1C7F4E9700EE2585 /* Interface.storyboard */,
+				E4F1E1111C7F48B100EE2585 /* Assets.xcassets */,
+				E4F1E1131C7F48B100EE2585 /* Info.plist */,
+			);
+			path = PickleballCourtsWatchKit;
+			sourceTree = "<group>";
+		};
+		E4F1E11C1C7F48B100EE2585 /* PickleballCourtsWatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E4F1E11D1C7F48B100EE2585 /* InterfaceController.swift */,
+				E4F1E11F1C7F48B100EE2585 /* ExtensionDelegate.swift */,
+				E4F1E1211C7F48B100EE2585 /* Assets.xcassets */,
+				E4F1E1231C7F48B100EE2585 /* Info.plist */,
+			);
+			path = "PickleballCourtsWatchKit Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +164,51 @@
 				E4F1E0F11C7E3E0400EE2585 /* Sources */,
 				E4F1E0F21C7E3E0400EE2585 /* Frameworks */,
 				E4F1E0F31C7E3E0400EE2585 /* Resources */,
+				E4F1E12E1C7F48B100EE2585 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E4F1E1251C7F48B100EE2585 /* PBXTargetDependency */,
 			);
 			name = PickleballCourts;
 			productName = PickleballCourts;
 			productReference = E4F1E0F51C7E3E0400EE2585 /* PickleballCourts.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E4F1E10B1C7F48B100EE2585 /* PickleballCourtsWatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F1E12B1C7F48B100EE2585 /* Build configuration list for PBXNativeTarget "PickleballCourtsWatchKit" */;
+			buildPhases = (
+				E4F1E10A1C7F48B100EE2585 /* Resources */,
+				E4F1E12A1C7F48B100EE2585 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F1E11B1C7F48B100EE2585 /* PBXTargetDependency */,
+			);
+			name = PickleballCourtsWatchKit;
+			productName = PickleballCourtsWatchKit;
+			productReference = E4F1E10C1C7F48B100EE2585 /* PickleballCourtsWatchKit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E4F1E1171C7F48B100EE2585 /* PickleballCourtsWatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F1E1271C7F48B100EE2585 /* Build configuration list for PBXNativeTarget "PickleballCourtsWatchKit Extension" */;
+			buildPhases = (
+				E4F1E1141C7F48B100EE2585 /* Sources */,
+				E4F1E1151C7F48B100EE2585 /* Frameworks */,
+				E4F1E1161C7F48B100EE2585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PickleballCourtsWatchKit Extension";
+			productName = "PickleballCourtsWatchKit Extension";
+			productReference = E4F1E1181C7F48B100EE2585 /* PickleballCourtsWatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +221,14 @@
 				ORGANIZATIONNAME = "Ronny Hendrickx";
 				TargetAttributes = {
 					E4F1E0F41C7E3E0400EE2585 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = QKQSEZ3E62;
+					};
+					E4F1E10B1C7F48B100EE2585 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = QKQSEZ3E62;
+					};
+					E4F1E1171C7F48B100EE2585 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -113,6 +247,8 @@
 			projectRoot = "";
 			targets = (
 				E4F1E0F41C7E3E0400EE2585 /* PickleballCourts */,
+				E4F1E10B1C7F48B100EE2585 /* PickleballCourtsWatchKit */,
+				E4F1E1171C7F48B100EE2585 /* PickleballCourtsWatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +264,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4F1E10A1C7F48B100EE2585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F1E1311C7F4E9800EE2585 /* Interface.storyboard in Resources */,
+				E4F1E1121C7F48B100EE2585 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F1E1161C7F48B100EE2585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F1E1221C7F48B100EE2585 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +293,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4F1E1141C7F48B100EE2585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F1E1201C7F48B100EE2585 /* ExtensionDelegate.swift in Sources */,
+				E4F1E11E1C7F48B100EE2585 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4F1E11B1C7F48B100EE2585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4F1E1171C7F48B100EE2585 /* PickleballCourtsWatchKit Extension */;
+			targetProxy = E4F1E11A1C7F48B100EE2585 /* PBXContainerItemProxy */;
+		};
+		E4F1E1251C7F48B100EE2585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4F1E10B1C7F48B100EE2585 /* PickleballCourtsWatchKit */;
+			targetProxy = E4F1E1241C7F48B100EE2585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4F1E0FC1C7E3E0400EE2585 /* Main.storyboard */ = {
@@ -157,6 +332,14 @@
 				E4F1E1021C7E3E0400EE2585 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E4F1E12F1C7F4E9700EE2585 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F1E1301C7F4E9700EE2585 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PickleballCourts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts;
@@ -258,10 +442,73 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PickleballCourts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4F1E1281C7F48B100EE2585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickleballCourtsWatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		E4F1E1291C7F48B100EE2585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickleballCourtsWatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		E4F1E12C1C7F48B100EE2585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickleballCourtsWatchKit_Extension;
+				INFOPLIST_FILE = PickleballCourtsWatchKit/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		E4F1E12D1C7F48B100EE2585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickleballCourtsWatchKit_Extension;
+				INFOPLIST_FILE = PickleballCourtsWatchKit/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
@@ -282,6 +529,22 @@
 			buildConfigurations = (
 				E4F1E1081C7E3E0400EE2585 /* Debug */,
 				E4F1E1091C7E3E0400EE2585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4F1E1271C7F48B100EE2585 /* Build configuration list for PBXNativeTarget "PickleballCourtsWatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F1E1281C7F48B100EE2585 /* Debug */,
+				E4F1E1291C7F48B100EE2585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4F1E12B1C7F48B100EE2585 /* Build configuration list for PBXNativeTarget "PickleballCourtsWatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F1E12C1C7F48B100EE2585 /* Debug */,
+				E4F1E12D1C7F48B100EE2585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
