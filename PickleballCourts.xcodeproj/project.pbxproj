@@ -435,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -447,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hendrickx.PickleballCourts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -531,6 +533,7 @@
 				E4F1E1091C7E3E0400EE2585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4F1E1271C7F48B100EE2585 /* Build configuration list for PBXNativeTarget "PickleballCourtsWatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +542,7 @@
 				E4F1E1291C7F48B100EE2585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4F1E12B1C7F48B100EE2585 /* Build configuration list for PBXNativeTarget "PickleballCourtsWatchKit" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +551,7 @@
 				E4F1E12D1C7F48B100EE2585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
